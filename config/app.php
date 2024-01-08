@@ -185,5 +185,5 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
-    'requireDevApi' => env('REQUIREDEV_API')
+    'requireDevApi' => env('REQUIREDEV_API', 'https://api.requiredev.com/api')
 ];
